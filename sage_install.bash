@@ -6,10 +6,10 @@
 set -e  # Exit on any error
 
 echo "=== SageMath Installer ==="
-echo "Installing to: /goinfre/$(whoami)/"
+echo "Installing to: /"
 
 # Set installation directory
-INSTALL_DIR="/goinfre/$(whoami)/sage_install"
+INSTALL_DIR="/sage_install"
 mkdir -p "$INSTALL_DIR"
 cd "$INSTALL_DIR"
 
